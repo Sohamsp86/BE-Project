@@ -1,0 +1,54 @@
+/* Full screen gradient background */
+.get-started-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #fef3c7, #fce7f3, #fbcfe8);
+  padding: 1rem;
+}
+
+/* Card styles */
+.get-started-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Video canvas styles */
+.get-started-canvas {
+  width: 100%;
+  border: 2px solid #d1d5db;
+  border-radius: 0.5rem;
+}
+
+/* Prediction area */
+.prediction {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Text colors */
+.prediction.real {
+  color: #16a34a;
+}
+
+.prediction.fake {
+  color: #dc2626;
+}
+
+.prediction.unknown {
+  color: #4b5563;
+}
+
+.icon {
+  margin-right: 0.5rem;
+}
